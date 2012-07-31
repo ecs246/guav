@@ -42,3 +42,11 @@
 #4 C:\xampp\htdocs\guavus2\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ActivityController), Object(CakeRequest), Object(CakeResponse))
 #5 C:\xampp\htdocs\guavus2\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2012-07-31 19:37:45 Error: [MissingLayoutException] Layout file "C:\xampp\htdocs\guavus2\app\View\Layouts\viewlayout.ctp" is missing.
+#0 C:\xampp\htdocs\guavus2\lib\Cake\View\View.php(503): View->_getLayoutFileName('viewlayout')
+#1 C:\xampp\htdocs\guavus2\lib\Cake\View\View.php(473): View->renderLayout('', 'viewlayout')
+#2 C:\xampp\htdocs\guavus2\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\guavus2\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\xampp\htdocs\guavus2\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ActivityController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\guavus2\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
